@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Landing Page</title>
+    <style>
+    .margine {
+        margin: 50px;
+    }
+    </style>
+</head>
+
+
+<body>
+    <!-- COROuSEL -->
+    <div class="corousel">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="toyota.jpg" class="d-block w-100" alt="toyota" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="toyota2.jpg" class="d-block w-100" alt="toyota2" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="yaris-2020.jpg" class="d-block w-100" alt="toyota1" height="600">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Margine -->
+    <div class="margine">
+
+        <div class="navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar scroll</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Link
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Link</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- crad horizontal -->
+        <div class="tentangshowroom">
+            <div class="card mb-10">
+                <div class=" row g-0">
+
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Tentang kami</h5>
+                            <p class="card-text">"Selamat datang di showroom kami, di mana impian mobil Anda menjadi kenyataan."
+                                "Kami adalah pusat destinasi terpercaya untuk menemukan mobil impian Anda."
+                                "Di sini, kami menghadirkan koleksi mobil terbaik untuk memenuhi kebutuhan dan gaya hidup Anda."
+                                "Kami adalah tim profesional yang siap membantu Anda menemukan mobil yang sempurna, dengan pelayanan yang ramah dan pengetahuan yang luas."
+                                "Kami mengutamakan kepuasan pelanggan, dengan memberikan pengalaman yang tak terlupakan dalam proses pembelian mobil."
+                                "Di showroom kami, Anda akan menemukan kualitas, keberagaman, dan keandalan dalam setiap mobil yang kami tawarkan."
+                                "Kami percaya bahwa mobil adalah cerminan kepribadian Anda, dan kami berkomitmen untuk membantu Anda menemukan mobil yang mencerminkan jati diri Anda."
+                                "Kami menghadirkan pilihan terbaik dari merek-merek terkenal, dengan keunggulan teknologi dan desain yang inovatif."
+                                "Kami hadir dengan layanan purna jual yang berkualitas, sehingga Anda merasa aman dan tenang setelah membeli mobil dari kami."
+                                "Kami adalah tempat di mana mimpi dan realitas bertemu, dan kami berharap dapat menjadi mitra perjalanan Anda menuju mobil impian."</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="showroom.jpg" class="d-block w-100" height="500" width="700" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <!-- Card 1 -->
+            <div style="text-align: center;">
+                <h1>Pilihan Mobil</h1>
+            </div>
+            <section>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="toyota.jpg" class="card-img-top" alt="toyota" height="200">
+                            <div class="card-body">
+                                <h5 class="Card title" style="text-align: center;">AVANZA</h5>
+                                <p class="card-text">Toyota Avanza  terbaru diklaim memiliki mesin yang handal dan mumpuni sebagai mobil MPV keluarga..</p>
+                                <button class="btn btn-primary" type="button">Lihat detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="toyota2.jpg" class="card-img-top" alt="toyota" height="200">
+                            <div class="card-body">
+                                <h5 class="Card title" style="text-align: center;">Toyota BZ4X</h5>
+                                <p class="card-text">Setelah lama dinanti, Toyota akhirnya resmi merilis mobil listrik berbasis baterai pertamanya. Mobil ini diberi nama Toyota BZ4X atau Toyota All New BZ4X.</p>
+                                <button class="btn btn-primary" type="button">Lihat detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="yaris-2020.jpg" class="card-img-top" alt="toyota" height="200">
+                            <div class="card-body">
+                                <h5 class="Card title" style="text-align: center;">YARIS 2020</h5>
+                                <p class="card-text">harga Toyota Yaris 2020 turut dikoreksi seiring perubahan pada spesifikasinya. Kini hatchback modis ini dijual dengan harga mulai dari Rp263 jutaan tipe terendah hingga Rp301 jutaan tipe tertinggi.</p>
+                                <a href="/#" class="btn btn-primary" tabindex="-1" role="button"
+                                    aria-disabled="true">Lihat
+                                    Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Lihat semua</a>
+            </div>
+            <br>
+            <br>
+
+            <!-- map -->
+            <section>
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.4346289834057!2d111.03880997637886!3d-7.417055587286984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a032196c8dd8b%3A0x4ef3d0760103e44d!2sSAS%20Sukowati%20Auto%20Servis%20Variasi!5e0!3m2!1sen!2sid!4v1687764860415!5m2!1sen!2sid"
+                        width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+            <br>
+            <!--video-->
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <video class="w-50" controls>
+                    <source src="Car Showroom Promo.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+
+
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="pemanis4.jpg" class="card-img-top" alt="pemanis1" height="200">
+
+                </div>
+
+                <div class="card">
+                    <img src="pemanis1.jpg" class="card-img-top" alt="pemanis2" height="200">
+
+                </div>
+
+                <div class="card">
+                    <img src="pemanis3.jpg" class="card-img-top" alt="toyota" height="200">
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="card-group">
+                <div class="card">
+                    <img src="pemanis4.jpg" class="card-img-top" alt="toyota" height="200">
+
+                </div>
+
+                <div class="card">
+                    <img src="pemanis2.jpg" class="card-img-top" alt="toyota" height="200">
+
+                </div>
+
+                <div class="card">
+                    <img src="pemanis3.jpg" class="card-img-top" alt="toyota" height="200">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start  text-muted" style="background-color:grey;">
+
+            <br>
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Promosi Mobil
+                            </h6>
+                            <p>
+                                "Temukan kenyamanan dan kebebasan baru dengan mobil impian Anda."
+                                "Jadikan perjalanan Anda lebih memikat dengan mobil berkualitas terbaik."
+                                "Nikmati gaya hidup yang elegan dan prestisius dengan mobil ini."
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                
+                            </h6>
+                            <p>
+                                <img src="logo1.png" style="display: block; margin-left: -70px ; margin-right: 50px ; width: 350px; height: 280px;">
+
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><img src="iconrumah.jpg" class="rounded-circle" alt="My image" width="40"
+                                    height="40"><i class="fas fa-home me-3"></i> Indonesia, Jawa Tengah, INA</p>
+
+                            <p><img src="gmail.png" class="rounded-circle" alt="My image" width="40"
+                                    height="40">
+                                <i class="fas fa-envelope me-3"></i>
+                                fauzanminmah@gmail.com
+                            </p>
+                            <p><img src="icontelephone.png" class="rounded-circle" alt="My image" width="40"
+                                    height="40"><i class="fas fa-phone me-3"></i> +6209876878687</p>
+
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 showroom Minmah:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Showroom Minmah.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
